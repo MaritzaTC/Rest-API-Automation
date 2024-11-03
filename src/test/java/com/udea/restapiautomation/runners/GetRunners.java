@@ -7,14 +7,12 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-    features = "src/test/java/resources/features/get.feature",
+    features = "src/test/java/resources/features/user/user.feature",
         glue = {
                 "com.udea.restapiautomation.stepdefinitions.hook",
-                "com.udea.restapiautomation.stepdefinitions"
+                "com.udea.restapiautomation.stepdefinitions",
         }
-
 )
 public class GetRunners {
-
 
 }

@@ -3,18 +3,17 @@ package com.udea.restapiautomation.task;
 import com.udea.restapiautomation.interactions.ExecuteGet;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
+import net.serenitybdd.screenplay.Tasks;
 
-import static net.serenitybdd.screenplay.Tasks.instrumented;
-
-public class Consume implements Task {
+public class ConsumeGet implements Task {
     private final String resource;
 
-    public Consume(String resource) {
+    public ConsumeGet(String resource) {
         this.resource = resource;
     }
 
-    public static Consume service(String resource) {
-        return instrumented(Consume.class, resource);
+    public static ConsumeGet service(String resource) {
+        return Tasks.instrumented(ConsumeGet.class, resource);
     }
 
     @Override
