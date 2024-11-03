@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Information get individual user" skipped="0" tests="1" time="6.14" timestamp="2024-11-03 08:36:18"><testcase name="Send information get individual user with response success"/></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Information get individual user" skipped="0" tests="1" time="3.31" timestamp="2024-11-03 01:09:56"><testcase name="Send information get individual user with response success"/></testsuite>

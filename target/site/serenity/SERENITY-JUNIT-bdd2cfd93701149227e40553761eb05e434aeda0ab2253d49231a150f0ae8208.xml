@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Create user" skipped="0" tests="3" time="6.29" timestamp="2024-11-03 02:51:50"><testcase name="Retrieve a user"/><testcase name="Delete user"/><testcase name="Create a new user"/></testsuite>

@@ -1,4 +1,4 @@
-package com.udea.restapiautomation.stepdefinitions;
+package com.udea.restapiautomation.stepdefinitions.user;
 
 import com.udea.restapiautomation.models.TestData;
 import com.udea.restapiautomation.questions.StatusCode;
@@ -54,4 +54,5 @@ public class GetStepdefinitions {
     public void iValidateGetResponseContainDataExpected() {
 
     }
+
 }
