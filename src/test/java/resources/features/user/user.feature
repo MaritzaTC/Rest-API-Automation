@@ -6,16 +6,18 @@ Feature: Create user
   Scenario: Create a new user
     Given I have access to the system
     When I create a new user
-    Then Should see the code 201
+    Then I should see a satisfactory state
 
   Scenario: Retrieve a user
     Given I have access to the system
-    Then I retrieve a user
-    And I validate get response contain data expected
+    When I validate get response contain data expected
+    Then I retrieve a user state
 
   Scenario: Delete user
     Given I have access to the system
     When I delete a user
-    Then Should see the code 204
+    Then I should see a successful deletion status
+
+
 
 
